@@ -1,0 +1,11 @@
+# Sri MK Papers — robots.txt
+# www.srimkpapers.com
+
+User-agent: *
+Allow: /
+
+# Disallow captured HTTrack mirror (if hosted)
+Disallow: /Mkpapermill/
+
+# Sitemap
+Sitemap: https://www.srimkpapers.com/sitemap.xml
