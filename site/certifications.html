@@ -32,8 +32,9 @@
     .cert-item-icon.iso { background: var(--color-iso); }
     .cert-item-icon.iec { background: #5C3D99; }
     .cert-item-icon.udyam { background: #C0392B; }
-    .cert-item-icon.dnb { background: #E67E22; }
-    .cert-item-icon.poll { background: #27AE60; }
+    .cert-item-icon.lei { background: #2980B9; }
+    .cert-item-icon.gst { background: #16A085; }
+    .cert-item-icon.tnf { background: #D35400; }
   </style>
 </head>
 
@@ -115,14 +116,13 @@
     <section class="section">
       <div class="container">
         <div class="cert-grid">
-          
-          <!-- FSC -->
+            <!-- FSC -->
           <div class="cert-item-card" id="fsc">
             <span class="cert-item-status">ACTIVE</span>
             <div class="cert-item-header">
               <div class="cert-item-icon fsc">FSC</div>
               <div>
-                <h2 style="font-size:var(--text-xl);">FSC� Chain of Custody</h2>
+                <h2 style="font-size:var(--text-xl);">FSC® Chain of Custody</h2>
                 <p style="font-size:var(--text-xs);color:var(--color-muted);margin-top:var(--space-1);">Forest Stewardship Council</p>
               </div>
             </div>
@@ -142,7 +142,7 @@
                 </tr>
               </tbody>
             </table>
-            <p style="font-size:var(--text-sm);color:var(--color-mid);">This certification validates that our paper products come from responsibly managed forests and recycled sources. Buyers can specify FSC-labelled products for ESG and sustainability procurement requirements.</p>
+            <p style="font-size:var(--text-sm);color:var(--color-mid);">Validates that our paper products originate from responsibly managed forests and recycled sources, enabling FSC-labeled procurement.</p>
             <img src="assets/images/certifications/fsc-coc-certificate-sri-mk-papers.jpg" alt="FSC Chain of Custody Certificate – Sri MK Papers FSC-C181687" style="width:100%;border-radius:var(--radius-md);margin-top:var(--space-6);" loading="lazy" onerror="this.style.display='none'">
           </div>
 
@@ -172,12 +172,13 @@
                 </tr>
               </tbody>
             </table>
-            <p style="font-size:var(--text-sm);color:var(--color-mid);">This certification confirms our Quality Management System meets international standards for consistent product quality, process control, and continual improvement across all manufacturing operations.</p>
+            <p style="font-size:var(--text-sm);color:var(--color-mid);">Confirms our Quality Management System meets international standards for consistent product quality and process control.</p>
             <img src="assets/images/certifications/ISO-9001-2015-small.jpg" alt="ISO 9001:2015 Quality Management Certificate – Sri MK Papers" style="width:100%;border-radius:var(--radius-md);margin-top:var(--space-6);" loading="lazy" onerror="this.style.display='none'">
           </div>
 
           <!-- IEC -->
           <div class="cert-item-card" id="iec">
+            <span class="cert-item-status">REGISTERED</span>
             <div class="cert-item-header">
               <div class="cert-item-icon iec">IEC</div>
               <div>
@@ -185,12 +186,25 @@
                 <p style="font-size:var(--text-xs);color:var(--color-muted);margin-top:var(--space-1);">DGFT, Government of India</p>
               </div>
             </div>
-            <p style="font-size:var(--text-sm);color:var(--color-mid);margin-bottom:var(--space-4);">IEC (Importer-Exporter Code) registered under DGFT, enabling us to export kraft paper reels to international markets. Currently serving 15+ countries including buyers in Southeast Asia, Middle East, and beyond.</p>
+            <table class="spec-table" style="margin-bottom:var(--space-4);">
+              <tbody>
+                <tr>
+                  <th scope="row" style="color:var(--color-muted);width:40%;">IEC Number</th>
+                  <td><strong>3614002621</strong></td>
+                </tr>
+                <tr>
+                  <th scope="row" style="color:var(--color-muted);">Authority</th>
+                  <td>DGFT, Government of India</td>
+                </tr>
+              </tbody>
+            </table>
+            <p style="font-size:var(--text-sm);color:var(--color-mid);margin-bottom:var(--space-4);">Enables us to export kraft paper reels globally, currently serving buyers across 15+ countries.</p>
             <img src="assets/images/certifications/IEC-certificate-sri-mk-papers.jpg" alt="IEC Import Export Code Certificate – Sri MK Papers" style="width:100%;border-radius:var(--radius-md);margin-top:var(--space-6);" loading="lazy" onerror="this.style.display='none'">
           </div>
 
           <!-- Udyam -->
           <div class="cert-item-card" id="udyam">
+            <span class="cert-item-status">REGISTERED</span>
             <div class="cert-item-header">
               <div class="cert-item-icon udyam">MSME</div>
               <div>
@@ -198,20 +212,137 @@
                 <p style="font-size:var(--text-xs);color:var(--color-muted);margin-top:var(--space-1);">Ministry of MSME, Government of India</p>
               </div>
             </div>
-            <p style="font-size:var(--text-sm);color:var(--color-mid);margin-bottom:var(--space-4);">Registered under India's Udyam (MSME) portal. Also LEI (Legal Entity Identifier) registered through GLEIF for global financial identity verification, supporting banking and trade finance operations.</p>
+            <table class="spec-table" style="margin-bottom:var(--space-4);">
+              <tbody>
+                <tr>
+                  <th scope="row" style="color:var(--color-muted);width:40%;">Udyam No.</th>
+                  <td><strong>UDYAM-TS-20-0004065</strong></td>
+                </tr>
+                <tr>
+                  <th scope="row" style="color:var(--color-muted);">Enterprise Type</th>
+                  <td>Medium Enterprise</td>
+                </tr>
+              </tbody>
+            </table>
+            <p style="font-size:var(--text-sm);color:var(--color-mid);margin-bottom:var(--space-4);">Official registration under the Ministry of Micro, Small and Medium Enterprises, Government of India.</p>
             <img src="assets/images/certifications/udyam-registration-sri-mk-papers.jpg" alt="Udyam MSME Registration Certificate – Sri MK Papers" style="width:100%;border-radius:var(--radius-md);margin-top:var(--space-6);" loading="lazy" onerror="this.style.display='none'">
+          </div>
+
+          <!-- LEI -->
+          <div class="cert-item-card" id="lei">
+            <span class="cert-item-status">ACTIVE</span>
+            <div class="cert-item-header">
+              <div class="cert-item-icon lei">LEI</div>
+              <div>
+                <h2 style="font-size:var(--text-xl);">Legal Entity Identifier (LEI)</h2>
+                <p style="font-size:var(--text-xs);color:var(--color-muted);margin-top:var(--space-1);">GLEIF / Legal Entity Identifier India</p>
+              </div>
+            </div>
+            <table class="spec-table" style="margin-bottom:var(--space-4);">
+              <tbody>
+                <tr>
+                  <th scope="row" style="color:var(--color-muted);width:40%;">LEI Code</th>
+                  <td><strong>984500A7D4C82E6E2D07</strong></td>
+                </tr>
+                <tr>
+                  <th scope="row" style="color:var(--color-muted);">Status</th>
+                  <td>Active / Fully Verified</td>
+                </tr>
+              </tbody>
+            </table>
+            <p style="font-size:var(--text-sm);color:var(--color-mid);margin-bottom:var(--space-4);">Globally recognized business registration identifier supporting trade finance and banking compliance.</p>
+            <img src="assets/images/certifications/LEI-certificate-sri-mk-papers.jpg" alt="LEI Certificate – Sri MK Papers" style="width:100%;border-radius:var(--radius-md);margin-top:var(--space-6);" loading="lazy" onerror="this.style.display='none'">
+          </div>
+
+          <!-- GST Page 1 -->
+          <div class="cert-item-card" id="gst-1">
+            <span class="cert-item-status">REGISTERED</span>
+            <div class="cert-item-header">
+              <div class="cert-item-icon gst">GST</div>
+              <div>
+                <h2 style="font-size:var(--text-xl);">GST Registration (Page 1)</h2>
+                <p style="font-size:var(--text-xs);color:var(--color-muted);margin-top:var(--space-1);">Government of India / Tax Department</p>
+              </div>
+            </div>
+            <table class="spec-table" style="margin-bottom:var(--space-4);">
+              <tbody>
+                <tr>
+                  <th scope="row" style="color:var(--color-muted);width:40%;">GSTIN</th>
+                  <td><strong>36AARCS3180K1ZS</strong></td>
+                </tr>
+                <tr>
+                  <th scope="row" style="color:var(--color-muted);">Registration Type</th>
+                  <td>Regular</td>
+                </tr>
+              </tbody>
+            </table>
+            <p style="font-size:var(--text-sm);color:var(--color-mid);margin-bottom:var(--space-4);">Official tax registration certificate Form GST REG-06 issued by the Government of India.</p>
+            <img src="assets/images/certifications/E-Certificate-36AARCS3180K1ZS-1-small.jpg" alt="GST Registration Page 1 – Sri MK Papers" style="width:100%;border-radius:var(--radius-md);margin-top:var(--space-6);" loading="lazy" onerror="this.style.display='none'">
+          </div>
+
+          <!-- GST Page 2 -->
+          <div class="cert-item-card" id="gst-2">
+            <span class="cert-item-status">REGISTERED</span>
+            <div class="cert-item-header">
+              <div class="cert-item-icon gst">GST</div>
+              <div>
+                <h2 style="font-size:var(--text-xl);">GST Registration (Page 2)</h2>
+                <p style="font-size:var(--text-xs);color:var(--color-muted);margin-top:var(--space-1);">Government of India / Tax Department</p>
+              </div>
+            </div>
+            <table class="spec-table" style="margin-bottom:var(--space-4);">
+              <tbody>
+                <tr>
+                  <th scope="row" style="color:var(--color-muted);width:40%;">Legal Name</th>
+                  <td><strong>Sri M.K. Paper Mills Private Limited</strong></td>
+                </tr>
+                <tr>
+                  <th scope="row" style="color:var(--color-muted);">Annexure</th>
+                  <td>A (Additional Places of Business)</td>
+                </tr>
+              </tbody>
+            </table>
+            <p style="font-size:var(--text-sm);color:var(--color-mid);margin-bottom:var(--space-4);">Official registration certificate Annexure A outlining manufacturing sites and business locations.</p>
+            <img src="assets/images/certifications/E-Certificate-36AARCS3180K1ZS-2.jpg" alt="GST Registration Page 2 – Sri MK Papers" style="width:100%;border-radius:var(--radius-md);margin-top:var(--space-6);" loading="lazy" onerror="this.style.display='none'">
+          </div>
+
+          <!-- Topnotch -->
+          <div class="cert-item-card" id="topnotch">
+            <span class="cert-item-status">AWARDED</span>
+            <div class="cert-item-header">
+              <div class="cert-item-icon tnf">TNF</div>
+              <div>
+                <h2 style="font-size:var(--text-xl);">Topnotch Foundation Certificate</h2>
+                <p style="font-size:var(--text-xs);color:var(--color-muted);margin-top:var(--space-1);">Business Leaders &amp; Research Awards</p>
+              </div>
+            </div>
+            <table class="spec-table" style="margin-bottom:var(--space-4);">
+              <tbody>
+                <tr>
+                  <th scope="row" style="color:var(--color-muted);width:40%;">Award Year</th>
+                  <td><strong>2022</strong></td>
+                </tr>
+                <tr>
+                  <th scope="row" style="color:var(--color-muted);">Category</th>
+                  <td>Quality Kraft Paper Manufacturer</td>
+                </tr>
+              </tbody>
+            </table>
+            <p style="font-size:var(--text-sm);color:var(--color-mid);margin-bottom:var(--space-4);">Recognized for outstanding industrial manufacturing quality and corporate governance in Hyderabad.</p>
+            <img src="assets/images/certifications/topnotch-foundation.jpg" alt="Topnotch Foundation Award Certificate" style="width:100%;border-radius:var(--radius-md);margin-top:var(--space-6);" loading="lazy" onerror="this.style.display='none'">
           </div>
 
           <!-- D&B -->
           <div class="cert-item-card">
+            <span class="cert-item-status">VERIFIED</span>
             <div class="cert-item-header">
-              <div class="cert-item-icon dnb">D&amp;B</div>
+              <div class="cert-item-icon dnb" style="background:#E67E22;">D&amp;B</div>
               <div>
                 <h2 style="font-size:var(--text-xl);">D&amp;B DUNS Registered</h2>
                 <p style="font-size:var(--text-xs);color:var(--color-muted);margin-top:var(--space-1);">Dun &amp; Bradstreet</p>
               </div>
             </div>
-            <p style="font-size:var(--text-sm);color:var(--color-mid);margin-bottom:var(--space-4);">Dun &amp; Bradstreet (D&amp;B) DUNS number registered. Provides verified business identity for international buyers, procurement systems, and trade compliance checks.</p>
+            <p style="font-size:var(--text-sm);color:var(--color-mid);margin-bottom:var(--space-4);">Provides verified business identity for international buyers, procurement systems, and trade compliance checks.</p>
             <div style="margin-top:var(--space-4);text-align:center;">
               <img src="assets/images/duns-registered-solutions-logo.png" alt="D&amp;B DUNS Registered logo" style="height:48px;display:inline-block;" loading="lazy">
             </div>
@@ -219,14 +350,16 @@
 
           <!-- Pollution Control -->
           <div class="cert-item-card">
+            <span class="cert-item-status">COMPLIANT</span>
             <div class="cert-item-header">
-              <div class="cert-item-icon poll"><i class="ph ph-leaf" aria-hidden="true"></i></div>
+              <div class="cert-item-icon poll" style="background:#27AE60;"><i class="ph ph-leaf" aria-hidden="true"></i></div>
               <div>
                 <h2 style="font-size:var(--text-xl);">Pollution Control Compliance</h2>
                 <p style="font-size:var(--text-xs);color:var(--color-muted);margin-top:var(--space-1);">Telangana State Pollution Control Board</p>
               </div>
             </div>
             <p style="font-size:var(--text-sm);color:var(--color-mid);">Full compliance with Telangana State Pollution Control Board requirements. Our facility operates within all prescribed environmental norms for effluent treatment and air quality.</p>
+          </div>
           </div>
 
         </div>
